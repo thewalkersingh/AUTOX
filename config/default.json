@@ -1,0 +1,25 @@
+{
+  "system": {
+    "theme": "eve"
+  },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "./themes/eve/components/*",
+        "./node_modules/@evershop/evershop/src/components/*"
+      ],
+      "@components-origin/*": [
+        "./node_modules/@evershop/evershop/src/components/*"
+      ],
+      "@default-theme/*": [
+        "./node_modules/@evershop/evershop/src/modules/*/pages/*"
+      ]
+    }
+  },
+  "shop": {
+    "currency": "INR",
+    "language": "en",
+    "weightUnit": "kg"
+  }
+}
