@@ -25,17 +25,18 @@
    "database": {
     "client": "pg",
     "connection": {
-      "host": "database",
-      "port": 5432,
-      "user": "admin",
-      "password": "admin@1234",
-      "database": "evershop"
-    },
+      "host": "${DB_HOST}",
+      "port": "${DB_PORT}",
+      "user": "${DB_USER}",
+      "password": "${DB_PASSWORD}",
+      "database": "${DB_NAME}",
+      "ssl": "${DB_SSL}"
+    }
+  },
     "options": {
       "pool": {
         "min": 2,
         "max": 10
       }
     }
-  }
 }

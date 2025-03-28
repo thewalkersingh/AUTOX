@@ -16,10 +16,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@evershop/evershop": "^1.2.2"
+    "@evershop/evershop": "^1.2.2",
+    "dotenv": "^16.4.7"
   },
   "workspaces": [
-    "extensions/*" 
+    "extensions/*"
   ],
   "shop": {
     "currency": "INR",
